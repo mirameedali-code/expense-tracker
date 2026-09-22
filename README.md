@@ -20,21 +20,19 @@ A simple command-line expense tracker built with Python and SQLite, with data an
 2. Run all cells
 3. The demonstration section shows adding sample expenses, viewing totals, and generating a chart
 
-## 📊 Example Output
+## 🕹️ Interactive CLI Menu
 
-When you execute the tracker, the application processes your data and prints a structured summary directly to your terminal:
+When you run the application, you can navigate through your financial records using this text-based main menu:
 
 ```text
-======================================
-       EXPENSE TRACKER SUMMARY        
-======================================
- Total Spent: Rs. 1050.00
---------------------------------------
- Category Breakdown:
- 🍔 Food:          Rs. 500.00  (47.6%)
- 🎬 Entertainment: Rs. 350.00  (33.3%)
- 🚌 Transport:     Rs. 200.00  (19.1%)
-======================================
-```
-*Note: A matplotlib window will automatically pop up displaying a bar chart breakdown of these categories.*
+=== EXPENSE TRACKER MENU ===
+1. Add a New Expense
+2. View All Expenses
+3. View Total Spent
+4. Filter Expenses by Category
+5. Delete an Expense by ID
+6. Show Analytics Chart
+7. Exit
 
+Choose an option (1-7): 
+```
